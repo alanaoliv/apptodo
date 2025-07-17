@@ -43,15 +43,4 @@ fun TarefaScreenPreview(tarefas: List<Tarefa>) {
 }
 
 
-@Preview(showBackground = true)
-@Composable
-fun TarefaScreenPreviewContent() {
-    ApptodoTheme {
-        TarefaScreenPreview(
-            tarefas = listOf(
-                Tarefa(id = 1, titulo = "Estudar Kotlin", descricao = "Funções e classes"),
-                Tarefa(id = 2, titulo = "Comprar pão", descricao = "Integral e fresquinho", feito = true)
-            )
-        )
-    }
-}
+
